@@ -5,8 +5,8 @@
 #Below is the script execute this on any input form eg (Search, feedback).
 
 #
-<!--
-<form action method name="login" id="login"><table><tbody><tr><td>Username:</td><td><input type="text" id="uid" name="uid" value="" style="width: 150px;"></td><td></td></tr><tr><td>Password:</td><td><input type="password" id="passw" name="passw" style="width: 150px;"></td></tr><tr><td></td><td><input type="button" name="btnSubmit" value="Login" onclick="return (SubmitForm());"></td></tr></tbody></table></form>-->
+
+#<form action method name="login" id="login"><table><tbody><tr><td>Username:</td><td><input type="text" id="uid" name="uid" value="" style="width: 150px;"></td><td></td></tr><tr><td>Password:</td><td><input type="password" id="passw" name="passw" style="width: 150px;"></td></tr><tr><td></td><td><input type="button" name="btnSubmit" value="Login" onclick="return (SubmitForm());"></td></tr></tbody></table></form>
 <script type="text/javascript">
     function SubmitForm()
     {
@@ -24,7 +24,6 @@
     document.getElementsByClassName("fl")[0].children[0].textContent = "Online Banking Login";
     document.getElementsByClassName("fl")[0].children[1].textContent = "";            
 </script>
-#
 
 #Below is the link prepared from the above script.
 
