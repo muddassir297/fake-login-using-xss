@@ -32,5 +32,5 @@
 
 
 # References
-https://pentest-tools.com/blog/xss-attacks-practical-scenarios/
+https://pentest-tools.com/blog/xss-attacks-practical-scenarios/ , 
 http://form.guide/web-form/submit-form-multiple-scripts.html
