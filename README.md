@@ -3,7 +3,8 @@
 # https://demo.testfire.net/
 # This is only for learning purposes.
 
-#Below is the script execute this on any input form eg (Search, feedback).
+# Note
+#Below is the script, execute this on any input form eg (Search, feedback) of the given website.
 
 #you must have local server setup for me its localhost:30000
 
