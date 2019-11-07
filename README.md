@@ -58,8 +58,8 @@ You must have local server setup, here it is node server localhost:30000. code i
 
 
 ## References
-https://pentest-tools.com/blog/xss-attacks-practical-scenarios/ , 
-http://form.guide/web-form/submit-form-multiple-scripts.html
+* https://pentest-tools.com/blog/xss-attacks-practical-scenarios/
+* http://form.guide/web-form/submit-form-multiple-scripts.html
 
 # Authors
 
