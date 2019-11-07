@@ -63,9 +63,9 @@ http://form.guide/web-form/submit-form-multiple-scripts.html
 
 # Authors
 
-Ashkan Es Haghi
-Alexander Grissinger
-Muddassir Hussain
+Ashkan Es Haghi <br>
+Alexander Grissinger <br>
+Muddassir Hussain <br>
 
 # Project Date
 08.11.2019
